@@ -43,12 +43,6 @@ int failed();
 List * newList();
 
 /**
- * Creates an empty list.
- * Returns NULL on error.
- */
-List newListL();
-
-/**
  * Returns 1 on success, 0 on failure.
  * Adds the given item to the head of the list.
  */

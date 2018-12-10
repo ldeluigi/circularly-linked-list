@@ -316,18 +316,6 @@ List * newList()
 	return list;
 }
 
-/**
- * Creates an empty list.
- * Returns NULL on error.
- */
-List newListL()
-{
-	List list;
-	list.head = NULL;
-	list.length = 0;
-	resetPointer(&list);
-	return list;
-}
 
 /**
  * Returns 1 if the list can be iterated further,
@@ -500,7 +488,7 @@ void* getCurrent(List * list)
 }
 
 /**
- * Returns the current inedx pointed by the list internal pointer.
+ * Returns the current index pointed by the list internal pointer.
  */
 int getCurrentIndex(List * list)
 {
